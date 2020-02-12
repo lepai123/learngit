@@ -6,3 +6,4 @@ Git has a mutable index called stage.
 Creating a new branch is quick
 add branch dev
 add branch dew
+add branch feature1
