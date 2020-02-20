@@ -1,0 +1,13 @@
+	IF i_inching=TRUE AND i_drivStart=FALSE THEN
+	    destinationTemp:=i_microspur;
+	END_IF;
+	IF i_drivStart=TRUE AND i_inching=FALSE THEN
+		destinationTemp:=i_microspur; //  这句要取消
+	END_IF;
+  
+  
+  
+  
+ /////////////////////////////////////////
+DSZR命令   o_axisTag[0] o_axisTag[1] 运行结束或者错误都会被置位的 
+最好要Rset
